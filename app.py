@@ -10,13 +10,13 @@ app = dash.Dash()
 server = app.server
 
 app.layout = html.Div(children=[
-    html.H1('Plotly Dash - the best way to visualize your data!'),
+    html.H1('What is the best way to Visualize Your Data'),
     dcc.Graph(
         id='this_is_an_id',
         figure={
             'data': [
-                {'x': ['Dash', 'Powerpoint', 'Lascaux cave paintings'], 'y': [8, 2, 3], 'type': 'bar', 'name': 'Intelligence'},
-                {'x': ['Dash', 'Powerpoint', 'Lascaux cave paintings'], 'y': [7, 1, 5], 'type': 'bar', 'name': 'Beauty'},
+                {'x': ['Looker', 'Tableau', 'Russ Visualizations'], 'y': [2,3,4], 'type': 'bar', 'name': 'Style'},
+                {'x': ['Looker', 'Tableau', 'Russ Visualizations'], 'y': [10, 3, 6], 'type': 'bar', 'name': 'Usability'},
             ],
             'layout': {
                 'title': "Because friends don't let friends use Microsoft Powerpoint",
